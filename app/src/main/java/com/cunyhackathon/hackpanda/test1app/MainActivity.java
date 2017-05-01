@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
         switch (requestCode) {
             case RequestCameraPermissionID: {
 
-                // Condition checks to see if permission is granted by the user so that application can
-                // get access to the Camera.
+                // Condition checks to see if permission is granted by the user so application can
+                // gain access to the Camera.
 
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 
@@ -48,7 +48,10 @@ public class MainActivity extends AppCompatActivity {
                         return;
                     }
                     try {
-                        cameraSource.start(cameraView.getHolder()); // Camera source gets access from the SurfaceView used to allow Camera functionality.
+
+                        // Camera source gets access from the SurfaceView used to allow Camera functionality.
+
+                        cameraSource.start(cameraView.getHolder());
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
@@ -59,9 +62,15 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
+    //  After prompting the user for permission the activity is then initialized in this method
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Creates layout of Main Activity
+
         setContentView(R.layout.activity_main);
 
         cameraView = (SurfaceView) findViewById(R.id.surface_view);
