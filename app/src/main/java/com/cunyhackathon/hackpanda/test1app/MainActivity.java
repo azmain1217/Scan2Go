@@ -85,8 +85,8 @@ public class MainActivity extends AppCompatActivity {
 
             cameraSource = new CameraSource.Builder(getApplicationContext(), textRecognizer)
                     .setFacing(CameraSource.CAMERA_FACING_BACK)
-                    .setRequestedPreviewSize(1280, 1024)
-                    .setRequestedFps(2.0f)
+                 //   .setRequestedPreviewSize(1280, 1024)
+                    .setRequestedFps(30) // 2.0f
                     .setAutoFocusEnabled(true)
                     .build();
 
@@ -157,19 +157,18 @@ public class MainActivity extends AppCompatActivity {
                                             intent.setData(Uri.parse("tel:" + str));
                                             startActivity(intent);
 
-                                        // When string is tapped, it will link to the default Email
-                                        // application and output the email that is stored in the string variable.
+                                            // When string is tapped, it will link to the default Email
+                                            // application and output the email that is stored in the string variable.
 
                                             Intent intent1 = new Intent(Intent.ACTION_SEND);
                                             intent1.setData(Uri.parse("mailto:" + str));
                                             startActivity(intent1);
 
-                                        // When string is tapped, it will link to the default Browser
-                                        // application and output the link stored in the string variable.
+                                            // When string is tapped, it will link to the default Browser
+                                            // application and output the link stored in the string variable.
 
                                             Intent intent2 = new Intent(Intent.ACTION_VIEW, Uri.parse(str));
                                             startActivity(intent2);
-
                                     }
                                 });
                             }
