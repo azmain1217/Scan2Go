@@ -77,9 +77,11 @@ public class MainActivity extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.text_view);
 
         TextRecognizer textRecognizer = new TextRecognizer.Builder(getApplicationContext()).build();
+
         if (!textRecognizer.isOperational()) {
             Log.w("MainActivity", "Detector dependencies are not yet available");
-        } else {
+        }
+        else {
 
             cameraSource = new CameraSource.Builder(getApplicationContext(), textRecognizer)
                     .setFacing(CameraSource.CAMERA_FACING_BACK)
@@ -87,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
                     .setRequestedFps(2.0f)
                     .setAutoFocusEnabled(true)
                     .build();
+
             cameraView.getHolder().addCallback(new SurfaceHolder.Callback() {
                 @Override
                 public void surfaceCreated(SurfaceHolder surfaceHolder) {
