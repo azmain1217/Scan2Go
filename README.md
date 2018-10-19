@@ -1,6 +1,6 @@
 # Scan2Go
-Image to Text application that dynamically scans phone numbers, emails, and website links
+Converts Handwritting into to Machine reading text dynamically distinguishing between phone numbers, emails, website links, and addresses.
 
-Moving the camera over a 10 or 11 digit phone number, the camera will automatically detect it is a phone number and immediately take you to your default Phone app.
+Hovering the camera over a 10 or 11 digit phone number, the camera will automatically detect it could possibly represent a phone number and immediately present to you, your default Phone application or if a list of applications if you have more apps that can open phone numbers.
 
-Moving the camera over a website link that includes "http://" or "www." with an ending of ".com" will automatically detect it is a website and take you directly to your default web browser on your phone.
+Bringing a website link over text that includes "http://" or "www." with an ending of ".com" will automatically detect it is a website and take you directly to your default web browser on your phone.
