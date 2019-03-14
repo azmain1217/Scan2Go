@@ -11,20 +11,20 @@ Tapping over an email address will automatically open your email application or 
 
 The purpose of this application is to make it easier to simply scan information rather than physically needing any utensils, papers, or manually needing to write down such information instead, just scan the information present and decide what to do with it through suggestions. 
 
-## Email Address Sample
+## Email Address
 <p float="left">
   <img src="/app/Screenshot_20190313-213603.png" width="300" />
   <img src="/app/Screenshot_20190313-213709.png" width="300" /> 
 </p>
 
-## Phone Number Sample
+## Phone Number
 <p float="left">
 <img src="app/Screenshot_20190313-213839.png" width="250" />
 <img src="app/Screenshot_20190313-213847.png" width="250" /> 
 <img src="app/Screenshot_20190313-213855.png" width="250" /> 
 </p>
 
-## URL Link Sample
+## Website URL
 <p float="left">
 <img src="app/Screenshot_20190313-214112.png" width="300" /> 
 <img src="app/Screenshot_20190313-214125.png" width="300" /> 
