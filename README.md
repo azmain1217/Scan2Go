@@ -9,14 +9,17 @@ Email Address Sample
 <p float="left">
   <img src="/app/Screenshot_20190313-213603.png" width="100" />
   <img src="/app/Screenshot_20190313-213709.png" width="100" /> 
-  <img src="/img3.png" width="100" />
 </p>
 
 Phone Number Sample
-![](/app/Screenshot_20190313-213839.png)
-![](/app/Screenshot_20190313-213847.png)
-![](/app/Screenshot_20190313-213855.png)
+<p float="left">
+<img src="app/Screenshot_20190313-213839.png" width="100" />
+<img src="app/Screenshot_20190313-213847.png" width="100" /> 
+<img src="app/Screenshot_20190313-213855.png" width="100" /> 
+</p>
 
 URL Link Sample
-![](/app/Screenshot_20190313-214112.png)
-![](/app/Screenshot_20190313-214125.png)
+<p float="left">
+<img src="app/Screenshot_20190313-214112.png" width="100" /> 
+<img src="app/Screenshot_20190313-214125.png" width="100" /> 
+</p>
