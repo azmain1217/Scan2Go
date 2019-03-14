@@ -1,4 +1,5 @@
-# Scan2Go
+
+# Scan2Go <p float="left"> <img src="/app/src/main/res/otg_launcher-web.png width="300 /> 
 Scan2Go is a simple application that uses the device camera to convert external text into to text dynamically displayed on device screen, distinguishing between phone numbers, emails, and website links.
 
 Hovering the camera over a 10 or 11 digit phone number, the camera will automatically detect a phone number and open the phone app immediately if your phone app is the only application that can open 10 or 11 digit numbers, or a list of applications to open with if you have more apps that can open 10/11 digit numbers.
