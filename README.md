@@ -11,7 +11,7 @@ Tapping over an email address will automatically open your email application or 
 
 The purpose of this application is to make it easier to simply scan information rather than physically needing any utensils, papers, or manually needing to write down such information instead, just scan the information present and decide what to do with it through suggestions. 
 
-# Email Address Sample
+## Email Address Sample
 <p float="left">
   <img src="/app/Screenshot_20190313-213603.png" width="300" />
   <img src="/app/Screenshot_20190313-213709.png" width="300" /> 
