@@ -6,8 +6,7 @@ Hovering the camera over a 10 or 11 digit phone number, the camera will automati
 Bringing a website link over text that includes "http://" or "www." with an ending of ".com" will automatically detect it is a website and take you directly to your default web browser on your phone.
 
 Email Address Sample
-![](/app/Screenshot_20190313-213603.png)
-![](/app/Screenshot_20190313-213709.png)
+![](/app/Screenshot_20190313-213603.png) ![](/app/Screenshot_20190313-213709.png)
 
 Phone Number Sample
 ![](/app/Screenshot_20190313-213839.png)
