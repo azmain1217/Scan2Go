@@ -13,9 +13,9 @@ Email Address Sample
 
 Phone Number Sample
 <p float="left">
-<img src="app/Screenshot_20190313-213839.png" width="300" />
-<img src="app/Screenshot_20190313-213847.png" width="300" /> 
-<img src="app/Screenshot_20190313-213855.png" width="300" /> 
+<img src="app/Screenshot_20190313-213839.png" width="250" />
+<img src="app/Screenshot_20190313-213847.png" width="250" /> 
+<img src="app/Screenshot_20190313-213855.png" width="250" /> 
 </p>
 
 URL Link Sample
