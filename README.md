@@ -5,12 +5,6 @@ Scan2Go is a simple application that uses the device camera to convert external 
 
 The purpose of this application is to make it easier to simply scan information rather than physically needing manual intervention to record information and instead, scan the information in front of you and decide what to do through suggestions. 
 
-## Email Address
-<p float="left">
-  <img src="/app/Screenshot_20190313-213603.png" width="300" />
-  <img src="/app/Screenshot_20190313-213709.png" width="300" /> 
-</p>
-
 ## Phone Number
 <p float="left">
 <img src="app/Screenshot_20190313-213839.png" width="250" />
